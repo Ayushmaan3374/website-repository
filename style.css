@@ -36,13 +36,13 @@ html {
 
 /*========================Nav Bar=========================*/
 .nav-bar {
-  display: flex;
+  display:flex;
   flex-flow: row wrap;
   width: 100%;
-  height: 90px;
+  height: 80px;
   background-color: #fff;
-  box-shadow: 3px 3px 10px lightslategray;
-  justify-content: center;
+  box-shadow: 7px 7px 10px lightslategray;
+  justify-content: space-around;
 
   position: sticky;
   top: 0;
@@ -52,15 +52,16 @@ html {
 }
 
 .logo {
-  flex: 1;
+  flex: 1.5;
   font-size: 40px;
   padding: 20px;
-  margin-left: 50px;
+  margin-left: 30px;
   font-family: sans-serif;
 }
 
 ul.menu {
   text-align: center;
+  display: inline;
   flex: 1;
   display: flex;
   flex-flow: row wrap;
@@ -68,27 +69,32 @@ ul.menu {
 
 .menu li {
   flex: 1;
+  align-items: center;
+  align-content: center;
+  display: inline-block;
   list-style-type: none;
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Barlow Condensed";
   text-align: center;
 }
 
 .menu li a {
   text-decoration: none;
-  text-align: center;
-  color: #000;
+  nav-index: auto;
+  position:static;
+ 
+  color: #030303;
   text-transform: uppercase;
 }
 
 .menu li a:hover {
-  color: midnightblue;
+  color: rgb(20, 198, 150);
   text-decoration: underline;
 }
 
 /*=============================Banner=============================*/
 .banner {
-  background-image: url("walk in.png");
+  background-image: url("travell.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -189,10 +195,12 @@ ul.menu {
 
 /*===========================Services===========================*/
 .services {
+  float:inline-end;
   display: flex;
   flex-flow: row;
   align-items: center;
   justify-content: center;
+  border-radius: 30px;
 }
 
 .service-item {
