@@ -22,7 +22,7 @@ html {
 
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -39,7 +39,7 @@ html {
   display: flex;
   /* flex-flow: row wrap; */
   width: 100%;
-  height: 90px;
+  height: 70px;
   background-color: #fff;
   box-shadow: 3px 3px 10px lightslategray;
 /* justify-content: center; */
@@ -53,8 +53,8 @@ html {
 .logo {
   /* flex: 1; */
   font-size: 40px;
-  padding: 20px;
-  margin-left: 50px;
+  padding: 40px;
+  margin-left: 100px;
   font-family: sans-serif;
 }
 
@@ -71,7 +71,7 @@ ul.menu {
   font-family: "Barlow Condensed";
   text-align: center;
   margin: 0px 20px;
-  padding: 50px;
+  padding:93px;
 }
 
 .menu li a {
@@ -81,7 +81,7 @@ ul.menu {
 }
 
 .menu li a:hover {
-  color: midnightblue;
+  color: rgb(185, 188, 16);
   text-decoration: underline;
 }
 
